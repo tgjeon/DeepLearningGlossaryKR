@@ -230,12 +230,25 @@ G
 
 ### **gradient clipping**
 
-### **glove**
+기울기 하강법을 이용한 모델 최적화 단계에서, 기울기 크기에 한계를 설정하는 기법입니다. 주로 [기울기가 폭발하는 문제 (exploding gradient problem)](https://github.com/tgjeon/Keras-Tutorials/blob/master/DeepLearningGlossary.md#exploding-gradient-problem)를 해결하기 위해 사용됩니다.
+
+* [On the difficulty of training recurrent neural networks](https://arxiv.org/abs/1211.5063)
+
+### **GloVe**
+
+GloVe는 비지도적 단어 임베딩 기법의 하나입니다. Word2Vec과는 달리, 공출현 (co-occurrence) 통계량을 활용하는 것이 특징입니다.
+
+- [GloVe: Global Vectors for Word Representation](https://nlp.stanford.edu/pubs/glove.pdf)
 
 ### **GoogLeNet**
 
+ILSVRC 2014 대회에서 우승을 차지한 CNN 구조입니다. [인셉션 모듈 (inception module)]을 채용하여 파라미터 수를 줄이면서 연산 효율을 늘린 것이 특징입니다.
+
+- [Going Deeper with Convolutions](https//arxiv.org/abs/1409.4842)
+
 ### **GRU**
 
+단순화된 형태의 LSTM 유닛 중 하나입니다. LSTM과 마찬가지로, [기울기가 사라지는 문제 (vanishing gradient problem)](https://github.com/tgjeon/Keras-Tutorials/blob/master/DeepLearningGlossary.md#vanishing-gradient-problem)를 해결하기 위해 게이팅 매커니즘 (gating mechanism)을 활용하여 장기 의존성 (long-range dependency)을 가집니다.
 
 H
 --------------
