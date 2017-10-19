@@ -19,9 +19,11 @@
 ### 수식 작성
 * 수식은 [codecogs.com](https://www.codecogs.com/latex/eqneditor.php)을 이용합니다.
 * 해당 수식을 `latex`으로 작성하시고 ```URL Encoded```링크를 붙여넣으면 됩니다. 
+* **이미지는 꼭 gif로 작성해야 보입니다.**
 
 ```
 ![Equation](link)
+![Equation](https://latex.codecogs.com/gif.latex?수식)
 ```
 
 ## 참고내용 (References)
