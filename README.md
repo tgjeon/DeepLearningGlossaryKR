@@ -1,22 +1,28 @@
 # DeepLearningGlossaryKR
 
 딥러닝, 머신러닝 용어집입니다. 
-각 항목에 대한 템플릿은 다음과 같습니다. 
+ 
 
-## 용어 양식
+
+
+## 작성 규칙
+
+### 용어 양식
+각 항목에 대한 템플릿은 다음과 같습니다.
+
 ```
 * Term_EN (Term_KR)
 : 한글 설명 (2-3줄로 간단히)
  * 관련 자료 링크  
 ```
 
-## 진행 상황
-* 아래 참고 내용을 바탕으로 용어 항목 (영어) 작성 (wildml(완료), GD, scratch)
-* 각 항목 번역 용어 (한글) 작성
-* 본 페이지 내에서 참조 링크 작성
-* 한글 설명 작성
-* 관련 자료 추가
+### 수식 작성
+* 수식은 [codecogs.com](https://www.codecogs.com/latex/eqneditor.php)을 이용합니다.
+* 해당 수식을 `latex`으로 작성하시고 ```URL Encoded```링크를 붙여넣으면 됩니다. 
 
+```
+![Equation](link)
+```
 
 ## 참고내용 (References)
 
@@ -24,6 +30,13 @@
 * ["Machine Learning Glossary @ Google Developers"](https://developers.google.com/machine-learning/glossary/) 
 * ["딥러닝/머신러닝 용어표" @ "밑바닥부터 시작하는 딥러닝 (이복연 옮김)"](https://docs.google.com/spreadsheets/d/1ccwGiC01X-gs3PPcXPUz67W9rS6l994LD4AL18KF1_0/edit#gid=0)
 
+
+## 진행 상황
+* 아래 참고 내용을 바탕으로 용어 항목 (영어) 작성 (wildml(완료), GD, scratch)
+* 각 항목 번역 용어 (한글) 작성
+* 본 페이지 내에서 참조 링크 작성
+* 한글 설명 작성
+* 관련 자료 추가
 
 
 ## 용어사전
@@ -36,10 +49,11 @@ A
 
 다중 클래스 분류 (multi-class classification)인 경우에 다음과 같이 정의됩니다. 
 
-> $$$Accuracy = \frac{Correct\,Predictions} {Total\,Number\,Of\,Examples}$$$ 
+> ![Equation](https://latex.codecogs.com/png.latex?Accuracy%20%3D%20%5Cfrac%7BCorrect%5C%2CPredictions%7D%20%7BTotal%5C%2CNumber%5C%2COf%5C%2CExamples%7D)
 
 이진 클래스 분류 (binary classification)인 경우는 다음과 같이 정의됩니다. 
-> $$$Accuracy = \frac{True\,Positives + True\,Negatives} {Total\,Number\,Of\,Examples}$$$
+> ![Equation](https://latex.codecogs.com/png.latex?Accuracy%20%3D%20%5Cfrac%7BTrue%5C%2CPositives%20&plus;%20True%5C%2CNegatives%7D%20%7BTotal%5C%2CNumber%5C%2COf%5C%2CExamples%7D)
+
 
 
 ### **activation function (활성화 함수)**
