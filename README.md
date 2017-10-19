@@ -214,6 +214,9 @@ E
 
 ### **exploding gradient problem**
 
+[기울기가 사라지는 문제 (vanishing gradient problem)](https://github.com/tgjeon/Keras-Tutorials/blob/master/DeepLearningGlossary.md#vanishing-gradient-problem)와는 반대로, 역전파 중 계산된 기울기가 지나치게 커져 오버플로우를 유발하는 현상을 말합니다. 이 문제를 방지하기 위해서 일반적으로 [기울기 클리핑 (gradient clipping)](https://github.com/tgjeon/Keras-Tutorials/blob/master/DeepLearningGlossary.md#gradient-clipping) 기법이 사용됩니다.
+
+* [On the difficulty of training recurrent neural networks](https://arxiv.org/abs/1211.5063)
 
 F
 --------------
@@ -373,6 +376,8 @@ V
 --------------
 
 ### **vanishing gradient problem**
+
+
 
 ### **VGG**
 
