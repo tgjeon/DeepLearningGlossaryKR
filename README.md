@@ -36,10 +36,10 @@ A
 
 다중 클래스 분류 (multi-class classification)인 경우에 다음과 같이 정의됩니다. 
 
-> $Accuracy = \frac{Correct\,Predictions} {Total\,Number\,Of\,Examples}$ 
+> $$$Accuracy = \frac{Correct\,Predictions} {Total\,Number\,Of\,Examples}$$$ 
 
 이진 클래스 분류 (binary classification)인 경우는 다음과 같이 정의됩니다. 
-> $Accuracy = \frac{True\,Positives + True\,Negatives} {Total\,Number\,Of\,Examples}$
+> $$$Accuracy = \frac{True\,Positives + True\,Negatives} {Total\,Number\,Of\,Examples}$$$
 
 
 ### **activation function (활성화 함수)**
