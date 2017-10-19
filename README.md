@@ -49,10 +49,10 @@ A
 
 다중 클래스 분류 (multi-class classification)인 경우에 다음과 같이 정의됩니다. 
 
-> ![Equation](https://latex.codecogs.com/png.latex?Accuracy%20%3D%20%5Cfrac%7BCorrect%5C%2CPredictions%7D%20%7BTotal%5C%2CNumber%5C%2COf%5C%2CExamples%7D)
+> ![Equation](https://latex.codecogs.com/gif.latex?Accuracy%20%3D%20%5Cfrac%7BCorrect%5C%2CPredictions%7D%20%7BTotal%5C%2CNumber%5C%2COf%5C%2CExamples%7D)
 
 이진 클래스 분류 (binary classification)인 경우는 다음과 같이 정의됩니다. 
-> ![Equation](https://latex.codecogs.com/png.latex?Accuracy%20%3D%20%5Cfrac%7BTrue%5C%2CPositives%20&plus;%20True%5C%2CNegatives%7D%20%7BTotal%5C%2CNumber%5C%2COf%5C%2CExamples%7D)
+> ![Equation](https://latex.codecogs.com/gif.latex?Accuracy%20%3D%20%5Cfrac%7BTrue%5C%2CPositives%20&plus;%20True%5C%2CNegatives%7D%20%7BTotal%5C%2CNumber%5C%2COf%5C%2CExamples%7D)
 
 
 
