@@ -209,6 +209,9 @@ E
 
 ### **embedding**
 
+입력 데이터를 다른 형태의 텐서로 변환하는 단사적이고 형태론적인 (injectvie and morphism) 매핑을 의미합니다. 딥러닝과 같이 표현 학습 (representation learning)에 속하는 기법은 모두 입력에서 의도된 출력을 내기위한 임베딩을 배우는 과정으로 해석할 수 있습니다. 특히, 단어 표현을 위한 대표적인 임베딩에는 Word2Vec이나 GloVe 등이 있습니다.
+
+
 ### **exploding gradient problem**
 
 
