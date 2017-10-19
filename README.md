@@ -250,7 +250,8 @@ ILSVRC 2014 대회에서 우승을 차지한 CNN 구조입니다. [인셉션 모
 
 단순화된 형태의 LSTM 유닛 중 하나입니다. LSTM과 마찬가지로, [기울기가 사라지는 문제 (vanishing gradient problem)](https://github.com/tgjeon/Keras-Tutorials/blob/master/DeepLearningGlossary.md#vanishing-gradient-problem)를 해결하기 위해 게이팅 매커니즘 (gating mechanism)을 활용하여 장기 의존성 (long-range dependency)을 가집니다.
 
-H
+- [Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation](http://arxiv.org/abs/1406.1078v3)
+- [Recurrent Neural Network Tutorial, Part 4 – Implementing a GRU/LSTM RNN with Python and Theano](https://arxiv.org/abs/1406.1078v3)
 --------------
 
 ### **highway layer**
